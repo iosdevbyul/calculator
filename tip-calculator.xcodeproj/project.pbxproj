@@ -31,6 +31,8 @@
 		1CBF42DF2A8CD94D00612BAF /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF42DE2A8CD94D00612BAF /* ThemeFont.swift */; };
 		1CBF42E22A8CD98600612BAF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF42E12A8CD98600612BAF /* UIColor+Extension.swift */; };
 		1CBF42E52A8CDDF900612BAF /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF42E42A8CDDF900612BAF /* LabelFactory.swift */; };
+		1CF5561C2A9F662100DF2577 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5561B2A9F662100DF2577 /* Tip.swift */; };
+		1CF5561E2A9F666500DF2577 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5561D2A9F666500DF2577 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		1CBF42DE2A8CD94D00612BAF /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		1CBF42E12A8CD98600612BAF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1CBF42E42A8CDDF900612BAF /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		1CF5561B2A9F662100DF2577 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		1CF5561D2A9F666500DF2577 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		1CBF42912A8CD24E00612BAF /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1CF5561A2A9F65FA00DF2577 /* model */,
 				1CBF42E32A8CDDE700612BAF /* Factory */,
 				1CBF42E02A8CD97100612BAF /* extension */,
 				1CBF42DB2A8CD92900612BAF /* config */,
@@ -177,6 +182,7 @@
 				1CBF42D72A8CD6AA00612BAF /* TipInputView.swift */,
 				1CBF42D92A8CD6BF00612BAF /* SpliteInputView.swift */,
 				1C8548AB2A9CD01500E3B6C6 /* AmountView.swift */,
+				1CF5561D2A9F666500DF2577 /* HeaderView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -205,6 +211,14 @@
 				1CBF42E42A8CDDF900612BAF /* LabelFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		1CF5561A2A9F65FA00DF2577 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1CF5561B2A9F662100DF2577 /* Tip.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +379,10 @@
 				1CBF42DF2A8CD94D00612BAF /* ThemeFont.swift in Sources */,
 				1CBF42932A8CD24E00612BAF /* AppDelegate.swift in Sources */,
 				1CBF42E52A8CDDF900612BAF /* LabelFactory.swift in Sources */,
+				1CF5561C2A9F662100DF2577 /* Tip.swift in Sources */,
 				1CBF42952A8CD24E00612BAF /* SceneDelegate.swift in Sources */,
 				1CBF42D82A8CD6AA00612BAF /* TipInputView.swift in Sources */,
+				1CF5561E2A9F666500DF2577 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
