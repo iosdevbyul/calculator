@@ -33,6 +33,10 @@
 		1CBF42E52A8CDDF900612BAF /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF42E42A8CDDF900612BAF /* LabelFactory.swift */; };
 		1CF5561C2A9F662100DF2577 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5561B2A9F662100DF2577 /* Tip.swift */; };
 		1CF5561E2A9F666500DF2577 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5561D2A9F666500DF2577 /* HeaderView.swift */; };
+		1CF556212A9F703A00DF2577 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF556202A9F703A00DF2577 /* CalculatorVM.swift */; };
+		1CF556232A9F72D600DF2577 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF556222A9F72D600DF2577 /* Result.swift */; };
+		1CF556252A9F788100DF2577 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF556242A9F788100DF2577 /* String+Extension.swift */; };
+		1CF8B11F2AAF33720049FF38 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8B11E2AAF33720049FF38 /* UIResponder+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,10 @@
 		1CBF42E42A8CDDF900612BAF /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		1CF5561B2A9F662100DF2577 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		1CF5561D2A9F666500DF2577 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1CF556202A9F703A00DF2577 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
+		1CF556222A9F72D600DF2577 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1CF556242A9F788100DF2577 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1CF8B11E2AAF33720049FF38 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,7 @@
 		1CBF42912A8CD24E00612BAF /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1CF5561F2A9F701D00DF2577 /* viewModel */,
 				1CF5561A2A9F65FA00DF2577 /* model */,
 				1CBF42E32A8CDDE700612BAF /* Factory */,
 				1CBF42E02A8CD97100612BAF /* extension */,
@@ -201,6 +210,8 @@
 			children = (
 				1CBF42E12A8CD98600612BAF /* UIColor+Extension.swift */,
 				1C8548A92A9CC61E00E3B6C6 /* UIView+Extension.swift */,
+				1CF556242A9F788100DF2577 /* String+Extension.swift */,
+				1CF8B11E2AAF33720049FF38 /* UIResponder+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -217,8 +228,17 @@
 			isa = PBXGroup;
 			children = (
 				1CF5561B2A9F662100DF2577 /* Tip.swift */,
+				1CF556222A9F72D600DF2577 /* Result.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		1CF5561F2A9F701D00DF2577 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1CF556202A9F703A00DF2577 /* CalculatorVM.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF556232A9F72D600DF2577 /* Result.swift in Sources */,
+				1CF556212A9F703A00DF2577 /* CalculatorVM.swift in Sources */,
+				1CF8B11F2AAF33720049FF38 /* UIResponder+Extension.swift in Sources */,
 				1C8548AC2A9CD01500E3B6C6 /* AmountView.swift in Sources */,
+				1CF556252A9F788100DF2577 /* String+Extension.swift in Sources */,
 				1CBF42972A8CD24E00612BAF /* CalculatorVC.swift in Sources */,
 				1C8548AA2A9CC61E00E3B6C6 /* UIView+Extension.swift in Sources */,
 				1CBF42D22A8CD5D700612BAF /* LogoView.swift in Sources */,
