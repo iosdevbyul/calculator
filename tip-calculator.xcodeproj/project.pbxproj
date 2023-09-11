@@ -38,6 +38,7 @@
 		1CF556252A9F788100DF2577 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF556242A9F788100DF2577 /* String+Extension.swift */; };
 		1CF8B11F2AAF33720049FF38 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8B11E2AAF33720049FF38 /* UIResponder+Extension.swift */; };
 		1CF8B1212AAF39CF0049FF38 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8B1202AAF39CF0049FF38 /* Int+Extension.swift */; };
+		1CF8B1232AAF40070049FF38 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8B1222AAF40070049FF38 /* Double+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		1CF556242A9F788100DF2577 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		1CF8B11E2AAF33720049FF38 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		1CF8B1202AAF39CF0049FF38 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		1CF8B1222AAF40070049FF38 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				1CF556242A9F788100DF2577 /* String+Extension.swift */,
 				1CF8B11E2AAF33720049FF38 /* UIResponder+Extension.swift */,
 				1CF8B1202AAF39CF0049FF38 /* Int+Extension.swift */,
+				1CF8B1222AAF40070049FF38 /* Double+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				1CBF42DA2A8CD6BF00612BAF /* SpliteInputView.swift in Sources */,
 				1CBF42DF2A8CD94D00612BAF /* ThemeFont.swift in Sources */,
 				1CBF42932A8CD24E00612BAF /* AppDelegate.swift in Sources */,
+				1CF8B1232AAF40070049FF38 /* Double+Extension.swift in Sources */,
 				1CBF42E52A8CDDF900612BAF /* LabelFactory.swift in Sources */,
 				1CF5561C2A9F662100DF2577 /* Tip.swift in Sources */,
 				1CBF42952A8CD24E00612BAF /* SceneDelegate.swift in Sources */,
