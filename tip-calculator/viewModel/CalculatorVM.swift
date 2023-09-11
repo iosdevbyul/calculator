@@ -22,13 +22,13 @@ class CalculatorVM {
     
     func transform(input: Input) -> Output {
         
-        input.tipPublisher.sink { tip in
-            print("The tip: \(tip)")
+        input.splitPublisher.sink { split in
+            print("The split: \(split)")
         }.store(in: &cancellables)
         
-        input.billPublisher.sink { bill in
-            print("the bill: \(bill)")
-        }.store(in: &cancellables)
+//        input.billPublisher.sink { bill in
+//            print("the bill: \(bill)")
+//        }.store(in: &cancellables)
         
         let result = Result(amountPerPerson: 500, totalBill: 1000, totalTip: 50.0)
         return Output(updateViewPublisher: Just(result).eraseToAnyPublisher())
