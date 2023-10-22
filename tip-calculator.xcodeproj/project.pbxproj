@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C17B2BC2AE50D9800D5D9ED /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1C17B2BB2AE50D9800D5D9ED /* click.m4a */; };
+		1C17B2BF2AE50DCE00D5D9ED /* AudioPlayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C17B2BE2AE50DCE00D5D9ED /* AudioPlayService.swift */; };
 		1C8548AA2A9CC61E00E3B6C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8548A92A9CC61E00E3B6C6 /* UIView+Extension.swift */; };
 		1C8548AC2A9CD01500E3B6C6 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8548AB2A9CD01500E3B6C6 /* AmountView.swift */; };
 		1CBF42932A8CD24E00612BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF42922A8CD24E00612BAF /* AppDelegate.swift */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C17B2BB2AE50D9800D5D9ED /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		1C17B2BE2AE50DCE00D5D9ED /* AudioPlayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayService.swift; sourceTree = "<group>"; };
 		1C8548A92A9CC61E00E3B6C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1C8548AB2A9CD01500E3B6C6 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		1CBF428F2A8CD24E00612BAF /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,9 +126,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C17B2BA2AE50D7300D5D9ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1C17B2BB2AE50D9800D5D9ED /* click.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1C17B2BD2AE50DB300D5D9ED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C17B2BE2AE50DCE00D5D9ED /* AudioPlayService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		1CBF42862A8CD24E00612BAF = {
 			isa = PBXGroup;
 			children = (
+				1C17B2BD2AE50DB300D5D9ED /* Service */,
+				1C17B2BA2AE50D7300D5D9ED /* Resource */,
 				1CBF42912A8CD24E00612BAF /* tip-calculator */,
 				1CBF42A82A8CD25100612BAF /* tip-calculatorTests */,
 				1CBF42B22A8CD25100612BAF /* tip-calculatorUITests */,
@@ -367,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C17B2BC2AE50D9800D5D9ED /* click.m4a in Resources */,
 				1CBF429F2A8CD25100612BAF /* LaunchScreen.storyboard in Resources */,
 				1CBF429C2A8CD25100612BAF /* Assets.xcassets in Resources */,
 			);
@@ -411,6 +434,7 @@
 				1CBF42932A8CD24E00612BAF /* AppDelegate.swift in Sources */,
 				1CF8B1232AAF40070049FF38 /* Double+Extension.swift in Sources */,
 				1CBF42E52A8CDDF900612BAF /* LabelFactory.swift in Sources */,
+				1C17B2BF2AE50DCE00D5D9ED /* AudioPlayService.swift in Sources */,
 				1CF5561C2A9F662100DF2577 /* Tip.swift in Sources */,
 				1CBF42952A8CD24E00612BAF /* SceneDelegate.swift in Sources */,
 				1CBF42D82A8CD6AA00612BAF /* TipInputView.swift in Sources */,

@@ -91,6 +91,10 @@ class TipInputView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    func reset() {
+        tipSubject.send(.none)
+    }
+    
     private func handleCustomTipButton() {
         let alertController: UIAlertController = {
             let controller = UIAlertController(title: "Enter custom tip", message: nil, preferredStyle: .alert)
